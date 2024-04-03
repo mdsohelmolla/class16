@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.fixt-width{
+    width: 1200px;
+    margin: auto;
+}
+.hedder{
+    background-color: rgb(28, 28, 91);
+    color: #fff;
+}
+.hedder-left{
+    float: left;
+    width: 40%;
+}
+.hedder-left img{
+    width: 100px;
+    margin-top: 20px;
+   
+}
+.hedder-right{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+.hedder-right ul{
+    display: inline-block;
+}
+.hedder-right ul li{
+    display: inline-block;
+    
+    
+}
+.hedder-right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    line-height: 80px;
+    padding: 0px 20px;
+}
+.baner{
+    background-image: url("https://i.postimg.cc/zGGHBR5g/intro-bg.jpg");
+    background-repeat: no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+.contant{
+    text-align: center;
+    color: #fff;
+}
+.contant h2{
+padding-top: 150px;
+}
+.contant p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.contant a{
+    background-color: rgb(5, 103, 103);
+    color: #fff;
+    height:30px ;
+    width:100px ;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.product{
+    background-color:rgb(215, 247, 247);
+    height: 550px;
+    
+}
+.product h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.product-itam{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.product-itam img{
+}
+.product-itam h5{}
+.product-itam p{}
+.product-itam a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: #fff;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.about{
+    background-color: rgb(193, 228, 216);
+}
+.about h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.about-left{
+    float: left;
+    width: 50%;
+}
+.about-left img{
+    margin-top: -110px;
+    
+    
+}
+.left{
+    display: inline-block;
+    padding-left: 50px;
+}
+.about-right{
+    float: right;
+    width: 50%;
+}
+.about-right .p1{
+    font-size: 12px;
+
+}
+.about-right .p2{
+    font-size: 20px;
+}
+.contact{
+   margin: auto;
+   background-color: antiquewhite;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.contact-left{
+    float: left;
+    width: 45%;
+}
+.contact-right{
+    float: right;
+    width: 50%;
+}
+.contact-right input{
+    width: 100%;
+}
+.contact-right textarea{
+    width: 100%;
+}
+input .submit{
+    width: 50px;
+    display: block;
+}
+.footer{
+    background-color: blue;
+    color: #fff;
+    height: 60px;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.last{
+    text-align: center;
+
+}
